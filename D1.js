@@ -65,7 +65,5 @@ console.log("sottrazione ", 4 - x);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = "john";
 let name2 = "John";
-console.log(name1 === name2);
-let lowerCase = true;
-let total = lowerCase === true || name1 === name2;
-console.log(total);
+console.log(name1 === name2); // in questo primo caso abbiamo verificato che le due stringhe sia effetivamente diverse
+console.log(name1.toLowerCase === name2.toLowerCase); //in questo caso tramite l'attributo .tolowercase possiamo modificare l'esito senza cambiare name2
